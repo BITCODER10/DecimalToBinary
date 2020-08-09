@@ -19,8 +19,10 @@ int BinaryConversion (int User_Input)
 
 int main()
 {
+    printf("*********** Decimal To Binary Conversion ******************* \n")
     int User_Input=0 ;
     printf("Please enter the number to convert into Binary  : ");
     scanf("%d",&User_Input);
     BinaryConversion(User_Input);
+    printf("\n *********** End of program ******************* \n")
 }
